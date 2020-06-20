@@ -20,6 +20,7 @@ button.main {
     border: 0 solid #9b9ea1;
     border-radius: 5px;
     color: #5F6368;
+    font-size: 90%;
     height: 36px;
     width: 127px;
     padding-bottom: 40px;
@@ -33,6 +34,7 @@ button.lucky {
     border: 0 solid #5F6368;
     border-radius: 5px;
     color: #5F6368;
+    font-size: 90%;
     height: 36px;
     width: 127px;
     padding-bottom: 40px;
