@@ -21,7 +21,12 @@ input {
     position: absolute;
     top: 42%;
     left: 50%;
-    transform: translate(-50%, -42%)
+    transform: translate(-50%, -42%);
+    z-index: 1;
+}
+
+input:focus {
+    outline: none;
 }
 
 li {
@@ -76,6 +81,32 @@ button.main:hover, button.lucky:hover {
     cursor: pointer;
 }
 
+
+div.footer1 p {
+    margin-left: 20px;
+}
+
+div.footer2 nav ul {
+    margin: 10px;
+}
+
+img.glass {
+    height: 18px;
+    max-width: 18px;
+    margin: 12px auto 5px -25px;
+    align-self: flex-start;
+    opacity: 0.3;
+    z-index: 2;
+}
+
+img.mic {
+    height: 50%;
+    width: 3%;
+    margin: 10px -25px 10px auto;
+    align-self: flex-end;
+    z-index: 3;
+}
+
 li.gmail {
     position: absolute;
     top: 20px;
@@ -92,6 +123,36 @@ li.toe a {
     margin-left: 10px;
     color: rgba(0, 0, 0, .54);
     font-size: 100%;
+}
+
+li.img {
+    width: 30%;
+    height: 30%;
+
+}
+
+.footer1 {
+    border-top: 0.7px solid #d4d8dd;
+    display: block;
+    height: 40px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, .54);
+    margin: 240px 0 0 0;
+}
+
+.footer2 {
+    border-top: 0.7px solid #d4d8dd;
+    border-bottom: 0.7px solid #d4d8dd;
+    display: block;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+.language {
+    font-size: 90%;
+    text-align: center;
+    margin: 460px auto 0 auto;
 }
 
 .logo {
@@ -113,37 +174,12 @@ li.toe a {
     position: absolute;
     top: 42%;
     left: 50%;
-    transform: translate(-50%, -42%)
+    transform: translate(-50%, -42%);
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
 }
 
-.language {
-    font-size: 90%;
-    text-align: center;
-    margin: 460px auto 0 auto;
-}
-
-.footer1 {
-    border-top: 0.7px solid #d4d8dd;
-    display: block;
-    height: 40px;
-    text-align: left;
-    background-color: #f2f2f2;
-    color: rgba(0, 0, 0, .54);
-    margin: 240px 0 0 0;
-}
-
-.footer2 {
-    border-top: 0.7px solid #d4d8dd;
-    border-bottom: 0.7px solid #d4d8dd;
-    display: block;
-    height: 40px;
-    background-color: #f2f2f2;
-}
-
-div.footer1 p {
-    margin-left: 20px;
-}
-
-div.footer2 nav ul {
-    margin: 10px;
+.search:hover {
+    box-shadow: 1px 1px 5px 1px #e2dddd;
 }
